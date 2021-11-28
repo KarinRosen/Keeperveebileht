@@ -319,18 +319,9 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 20px 87px;
+  padding: 13px 89px;
   text-decoration: none;
-}
-
-.navbar a.right {
-  background-color: #193d23;
-  float: right;
-}
-
-.navbar a:hover {
-  background-color: #193d23;
-  color: white;
+  font-family: georgia;
 }
 
 .main {   
@@ -350,70 +341,374 @@ body {
   text-align: center;
   background: #ddd;
 }
-
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
 }
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
+.modal2 {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 </style>
-
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body>
 <div class="header">
   <img src="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\keeperlogo.png" width="160" height="160" />
 
 </div>
-
+</head>
 <div class="navbar">
   <nav>
   <ul>
   <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\kontaktid.html">Meist</a>
   <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\koolitused.html">Koolitused</a>
   <a href="#">Meie partnerid</a>
-  <a href="#">Test</a>
+  <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\test.html">Test</a>
   <a href="#">Broneerimine</a>
   <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\avaleht.html">Avaleht</a>
   </ul>
 </nav>
 </div>
+
+<body>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css">
+
   <div class="main">
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>             
-    <button id ="nupp1" class="button" style = "color:white; font-family:initial; font-size:40px;">Agility<p></p>Loe rohkem</button>
-    <button id="nupp2" class="button" style = "color: white; font-family:initial; font-size:40px;">Algkoolitus<p></p>Loe rohkem</button>
+    <button id="nupp1"style = "color:white; font-family:initial; font-size:40px;">Agility<p></p>Loe rohkem</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Agility on hasartne, lõbus, põnev ja vaatemänguline koeraspordiala, kus koer läbib aja peale mitmesugustest takistustest koosneva raja. Koerajuht võib koera suunata vaid hääle ja kehakeele abil. Eesmärgiks on läbida takistused kindlas järjekorras, vigadeta ja võimalikult kiiresti. Selle juures on peamine inimese ja koera omavaheline koostöö ja kontakt.
+        </p>
+      </div>
+    </div>
+
+    <button id="nupp2" class="button" style = "color: white; font-family:initial; font-size:40px;">Kutsikakoolitus<p></p>Loe rohkem</button>
+    <div id="myModal2" class="modal">
+      <div class="modal-content">
+        <span class="close2">&times;</span>
+        <p>Kursus on mõeldud kõikidele kutsikatele ning omanikele, kes tahab luua usaldusel ja mängul põhineva suhte oma koeraga.Sellel kursusel õpetame koertele eluks vajalike oskusi kasutades mängupõhist koolitust.Sobib kutsikatele vanuses 3-8 elukuud.</p>
+      </div>
+    </div>
+
     <p></p> 
+
     <button id="nupp3" class="button" style = "color: white; font-family:initial; font-size:40px;">Rallikuulekus<p></p>Loe rohkem</button>
-    <button id="nupp4" class="button" style = "color: white; font-family:initial; font-size:40px;">Trikikoolitus<p></p>Loe rohkem</button> 
+    <div id="myModal3" class="modal">
+      <div class="modal-content">
+        <span class="close3">&times;</span>
+        <p>Suhteliselt uus koeraspordiala – nimetusega rallikuulekus on harrastus, milles on esiplaanil koera ja koerajuhi vaheline täiuslik suhtlemine ja ideaalne partnerlus. Rallikuulekus põhineb rõõmul, suhtlusel ja koostööl. Rallikuulekuses ei ole põhirõhk täpsusel, vaid meeskonna koostööl ja suhtlemisel. Reeglite kohaselt erineb rallikuulekus (lühend RalliKK) teistest kuulekusaladest, mis nõuavad sageli ülimat täpsust elementide sooritamisel. Ning erinevalt teistest aladest, kus koerajuhi suhtlus koeraga ja koera kiitmise kohad ja maht on väga täpselt paika pandud, tohib rallikuulekuses koeraga rajal suhelda ning oma lemmikut piiramatult kiita!</p>
+      </div>
+    </div>
+    <button id="nupp4" class="button" style = "color: white; font-family:initial; font-size:40px;">Trikikoolitus<p></p>Loe rohkem</button>
+    <div id="myModal4" class="modal">
+      <div class="modal-content">
+        <span class="close4">&times;</span>
+        <p>Huvitav ja arendav treening, mis tugevdab kontakti koera ja omaniku vahel. Kasvatab koera vaimset võimekust, kuid on ka hea füüsilise tasakaalu treenimiseks. Mitmed trikid nõuavad ning arendavad just vaimset stabiilsust, kannatlikkust ning arendavad koera füüsilist poolt läbi erinevate lihaste kasutamise trikkide sooritamisel.Tore ajaviide koos oma parima sõbraga.Sobib eriti hästi kõrge energia tasemega koertele, kes vajavad lisaks füüsilisele koormusele ka just rohkem vaimset tegevust. Läbi vahvate trikkide õpime kapiuksi sulgema, tagurdama, käpaga asju katsuma, roomama, asju tõstma jpmt.
+        </p>
+      </div>
+    </div> 
     <p></p> 
     <button id="nupp5" class="button" style = "color: white; font-family:initial; font-size:40px;">Näituse treening<p></p>Loe rohkem</button>
+    <div id="myModal5" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Näitusetreeningus keskendume kõigile näitusel vaja minevatele oskustele ning teadmistele. Valmistume trennides näitusteks harjutades seisu asendit, erinevaid liikumisi, laua peal seismist, koera katsumist, hammaste näitamist jmt.Näitusetrenn on hea võimalus harjutada näituse olukorda nii enda kui koera jaoks. Samuti on see kindlasti hea harjutamise võimalus koertele, kes on veidi tagasihoidlikuma iseloomuga või omavad näiteks mõnda negatiivset kogemust varasemalt näituselt. Näiteks koerad, kes kardavad kui neid puudutatakse või näitavad selle juures ebakindluse märke. Näitusetrennides on võimalik antud mälupilti jälle positiivseks muuta ning harjutada koera näitusele sarnases olukorras uuesti ennast kindlalt ja vabalt tundma ning kogu protsessi nautima.Sobib ideaalselt neile, kes alles alustavad näitustel käimisega, kuid ka neile, kes juba käivad näitusel, kuid soovivad mõnda aspekti koera esitluses veel korrigeerida. Hea võimalus harjutada näituseolukorda ja koera püsivust.
+        </p>
+      </div>
+    </div>
     <button id="nupp6" class="button" style = "color: white; font-family:initial; font-size:40px;">Edasijõudnud<p></p>Loe rohkem</button>
+    <div id="myModal6" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Edasijõudnute koolitus on kutsikakoolituse järg.</p>
+      </div>
+    </div>
     <p></p>
     <button id="nupp7" class="button" style = "color: white; font-family:initial; font-size:40px;">Sõnakuulelikkus<p></p>Loe rohkem</button>
+    <div id="myModal7" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Selles koolituses keskendutakse omaniku ja koera kontakti tugevdamisele.</p>
+      </div>
+    </div>
     <button id="nupp8" class="button" style = "color: white; font-family:initial; font-size:40px;">Eratunnid<p></p>Loe rohkem</button>
+    <div id="myModal8" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Eratundides saab keskunda täpselt teie koera koera probleemidele ja omaniku eesmärkidele, kuna juhendaja tähelepanu on ühel koeral. See valik on kõige sobilikum koertele, kes ei saa rühmatrennides teiste koertega läbi. </p>
+      </div>
+    </div>
     <p></p> 
 </div>
-<script src="script.js"></script>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("nupp1");
 
 
-<div class="footer">
-  <h2>midagi ilusat</h2>
-</div>
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal2 = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn = document.getElementById("nupp2");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal3 = document.getElementById("myModal3");
+
+// Get the button that opens the modal
+var btn = document.getElementById("nupp3");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close3")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal3.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal3.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal4 = document.getElementById("myModal4");
+
+// Get the button that opens the modal
+var btn = document.getElementById("nupp4");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal4.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal4.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal4) {
+    modal4.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal5 = document.getElementById("myModal5");
+
+// Get the button that opens the modal
+var btn = document.getElementById("nupp5");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal5.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal5.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal5) {
+    modal5.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal6 = document.getElementById("myModal6");
+
+// Get the button that opens the modal
+var btn = document.getElementById("nupp6");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal6.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal6.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal6) {
+    modal6.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal7 = document.getElementById("myModal7");
+
+// Get the button that opens the modal
+var btn = document.getElementById("nupp7");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal7.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal7.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal7) {
+    modal7.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal8 = document.getElementById("myModal8");
+
+// Get the button that opens the modal
+var btn = document.getElementById("nupp8");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal8.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal8.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == moda8) {
+    modal8.style.display = "none";
+  }
+}
+</script>
 
 </body>
 </html>
