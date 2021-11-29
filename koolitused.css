@@ -303,11 +303,7 @@
   width: 100%;
   padding: 20px;
 }
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
+
 .modal {
   display: none; 
   position: fixed; 
