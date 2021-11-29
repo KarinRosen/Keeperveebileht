@@ -5,7 +5,7 @@ body {
 }
 .header {
   padding: 20px;
-  text-align: left;
+  text-align: center;
   color: white;
 
 }
@@ -23,7 +23,7 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 13px 89px;
+  padding: 12px 85px;
   text-decoration: none;
   font-family: georgia;
 }
