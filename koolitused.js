@@ -25,6 +25,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
 // Get the modal
 var modal2 = document.getElementById("myModal2");
 
@@ -105,7 +106,7 @@ window.onclick = function(event) {
     modal4.style.display = "none";
   }
 }
->
+
 // Get the modal
 var modal5 = document.getElementById("myModal5");
 
@@ -132,8 +133,7 @@ window.onclick = function(event) {
     modal5.style.display = "none";
   }
 }
-</script>
-<script>
+
 // Get the modal
 var modal6 = document.getElementById("myModal6");
 
