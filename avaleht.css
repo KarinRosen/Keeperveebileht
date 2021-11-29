@@ -23,7 +23,7 @@
   position: absolute;
   padding-top: 300%;
   padding-left: 350%;
-  margin-left: -200px !important;
+  margin-left: -200px;
   margin-top: -120%;
   opacity: 0;
   transition: all 0.8s
@@ -60,7 +60,7 @@
   position: absolute;
   padding-top: 300%;
   padding-left: 350%;
-  margin-left: -200px !important;
+  margin-left: -200px;
   margin-top: -120%;
   opacity: 0;
   transition: all 0.8s

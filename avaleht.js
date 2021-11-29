@@ -1,7 +1,6 @@
-    <script type="text/javascript">
-    function bronnima()
-    {
-    var url = "C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\bronn.html";
-    window.location(url);
-    }
-    </script>
+function avabronn() {
+  window.open("bronn.html").focus();
+}
+function avatest() {
+  window.open("test.html").focus();
+}
