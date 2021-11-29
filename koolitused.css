@@ -1,7 +1,7 @@
 
 #nupp1 {
   background-image: url(agility.png);
-  background-size: 792px ;
+  background-size: 798px ;
   position: relative;
   background-position: center;
   border: none;
@@ -290,34 +290,6 @@
   transition: 0s
 }
 
-body {
-  font-family: Playfair Display, sans-serif;
-  margin: 0;
-}
-.header {
-  padding: 20px;
-  text-align: left;
-  color: white;
-
-}
-.header h1 {
-  font-size: 40px;
-}
-.navbar {
-  overflow: hidden;
-  background-color: #193d23;
-}
-
-.navbar a {
-  background-color: #193d23;
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 13px 89px;
-  text-decoration: none;
-  font-family: georgia;
-}
 
 .main {   
   -ms-flex: 70%; /* IE10 */
