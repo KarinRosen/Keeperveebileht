@@ -1,142 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-<title>Keeper</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-#nupp1 {
-  position: relative;
-  background-image: url(https://blog.homesalive.ca/hubfs/Blog/2019/Force%20Free%20Dog%20Training%20-%20Tips%20From%20an%20Expert/force-free-dog-training-article-feature.jpg);
-  background-size: 755px ;
-  background-position: center;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 200px;
-  width: 755px;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-#nupp1:after  {
-  content: "";
-  background-color: white;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -200px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
-}
-
-#nupp1:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}
-#nupp2{
-  position: relative;
-  opacity: 1;
-  background-image:url(https://media.istockphoto.com/photos/portrait-of-an-adorable-labrador-retriever-picture-id1188956003?k=20&m=1188956003&s=612x612&w=0&h=lf2eVkljcIAFC0TLnbo-W7wMX270V99ngsiCXR_3FtM=);
-  background-size: 755px ;
-  background-position: center;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 200px;
-  width: 755px;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;  
-}
-
-#nupp2:after  {
-  content: "";
-  background-color: white;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -200px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
-
-}
-
-#nupp2:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}
-body {
-  font-family: Playfair Display, sans-serif;
-  margin: 0;
-}
-.header {
-  padding: 20px;
-  text-align: left;
-  color: white;
-
-}
-.header h1 {
-  font-size: 40px;
-}
-.navbar {
-  overflow: hidden;
-  background-color: #193d23;
-}
-
-.navbar a {
-  background-color: #193d23;
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 13px 89px;
-  text-decoration: none;
-  font-family: georgia;
-}
-
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20.px;
-}
-
-#pilt {
-  opacity: 1;
-}
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-
-</style>
+  <link rel='stylesheet' type='text/css' href='avaleht.css'>
+  <script src="avaleht.js"></script>
 </head>
 <div class="header">
   <img src="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\keeperlogo.png" width="160" height="160" />
@@ -148,39 +13,22 @@ body {
   <ul>
   <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\kontaktid.html">Meist</a>
   <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\koolitused.html">Koolitused</a>
-  <a href="#">Meie partnerid</a>
+  <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\treenerid.html">Meie partnerid</a>
   <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\test.html">Test</a>
-  <a href="#">Broneerimine</a>
+  <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\bronn.html">Broneerimine</a>
   <a href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\avaleht.html">Avaleht</a>
   </ul>
 </nav>
 </div>
 
 <body>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel='stylesheet' type='text/css' href='avaleht.css'>
+  <script src="avaleht.js"></script>
   <div class="main">
     <p style = "color:black; font-family:Playfair Display; font-size:25px;">Kas tahaksite oma koera õpetada või on teie lemmikul käitumisprobleeme? Olete jõudnud õigesse kohta. Meie missiooniks on viia kokku treener ja koeraomanik vastavalt koera probleemile. Kui te pole kindel, millist treenerit valida, siis saate teha testi, mis soovitab sobivat spetsialisti. </p>
-    <button id ="nupp1"class="button" style =" color:white; font-family:initial; font-size:40px;">Mine broneerima</button>
-    <button id="nupp2" class="button" style = "color: white; font-family:initial; font-size:40px;">Tee test</button>
+    <script ></script>
+    <button  src="avaleht.js" id ="nupp1"class="button" onClick = "bronnima()" style =" color:white; font-family:initial; font-size:40px;">Mine broneerima</button>
+    <button  id="nupp2" class="button" style = "color: white; font-family:initial; font-size:40px;">Tee test</button>
     <p></p>
   </div>
 </body>
-<script>
-
-// Get the button that opens the modal
-var btn = document.getElementById("nupp1");
-
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-</script>
-<script>
-var btn = document.getElementById("nupp2");
-
- 
-btn.onclick = function(href="C:\Users\karin\Downloads\Veebilehe tegemine\Keeperveebileht\test.html")
-</html>
-</script>

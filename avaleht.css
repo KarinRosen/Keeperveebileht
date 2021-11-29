@@ -1,0 +1,131 @@
+
+#nupp1 {
+  position: relative;
+  background-image: url(koer.jpg);
+  background-size: 755px ;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 755px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp1:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#nupp1:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#nupp2{
+  position: relative;
+  opacity: 1;
+  background-image:url(koer2.png);
+  background-size: 755px ;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 755px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;  
+}
+
+#nupp2:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+
+}
+
+#nupp2:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+body {
+  font-family: Playfair Display, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 20px;
+  text-align: left;
+  color: white;
+
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #193d23;
+}
+
+.navbar a {
+  background-color: #193d23;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 89px;
+  text-decoration: none;
+  font-family: georgia;
+}
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20.px;
+}
+
+#pilt {
+  opacity: 1;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}

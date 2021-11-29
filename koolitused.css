@@ -1,0 +1,388 @@
+
+#nupp1 {
+  background-image: url(agility.png);
+  background-size: 792px ;
+  position: relative;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 725px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp1:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#nupp1:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#nupp2{
+  position: relative;
+  background-image: url(kutsikas.png);
+  background-size: 950px ;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 725px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp2:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+
+}
+
+#nupp2:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#nupp3 {
+  background-image: url(ralli.png);
+  background-size: 950px ;
+  position: relative;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 725px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp3:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#nupp3:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#nupp4 {
+  background-image: url(trikk.png);
+  background-size: 1000px ;
+  position: relative;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 725px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp4:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#nupp4:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#nupp5 {
+  background-image: url(näitus.png);
+  background-size: 950px ;
+  position: relative;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 725px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp5:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#nupp5:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#nupp6 {
+  background-image: url(edasi.png);
+  background-size: 950px ;
+  position: relative;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 725px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp6:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#nupp6:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#nupp7 {
+  background-image: url(sõnakuule.png);
+  background-size: 950px ;
+  position: relative;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 725px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp7:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#nupp7:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+#nupp8 {
+  background-image: url(erakas.png);
+  background-size: 950px ;
+
+  position: relative;
+  background-position: center;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 200px;
+  width: 725px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#nupp8:after  {
+  content: "";
+  background-color: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -200px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#nupp8:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+body {
+  font-family: Playfair Display, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 20px;
+  text-align: left;
+  color: white;
+
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #193d23;
+}
+
+.navbar a {
+  background-color: #193d23;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 89px;
+  text-decoration: none;
+  font-family: georgia;
+}
+
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: mellow;
+  padding: 20px;
+}
+
+.pilt {
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modal2 {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
