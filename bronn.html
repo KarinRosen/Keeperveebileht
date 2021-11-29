@@ -3,13 +3,36 @@
 <head>
     <title>Broneeri aeg</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="bronn.css">
+    <link rel='stylesheet' type='text/css' href='ühine.css'>
+    <link rel='stylesheet' type='text/css' href='bronn.css'>
+    <style>
+
+      </style>
+    
 </head>
+
+<div class="header">
+    <img src="keeperlogo.png" width="160" height="160" />
+  
+  </div>
+  </head>
+  <div class="navbar">
+    <nav>
+    <ul>
+    <a href="html">Meist</a>
+    <a href="koolitused.html">Koolitused</a>
+    <a href="treenerid.html">Meie partnerid</a>
+    <a href="test.html">Test</a>
+    <a href="bronn.html">Broneerimine</a>
+    <a href="avaleht.html">Avaleht</a>
+    </ul>
+  </nav>
+  </div>
 
 <body>
 
 <h1>AJA BRONEERIMINE</h1>
-<p>Broneeri end ja oma lemmikut koolitusele. Kui Sa pole kindel, et koeratrenn on see, mida vajad, tee <a href=''>TEST</a></p>
+<p>Broneeri end ja oma lemmikut koolitusele. Kui Sa pole kindel, et koeratrenn on see, mida vajad, tee <a href='test.html'>TEST</a></p>
 
 <form>
 <div class="el">
@@ -19,17 +42,18 @@
       <option>Tartu</option>
       <option>Tallinn</option>
     </select>
+
   </div>
 
   <div class="el">
     <label>Treenerid</label><br>
-    <p>Tutvu meie <a href=''>TREENERITEGA</a></p>
+    <p>Tutvu meie <a href='treenerid.html'>TREENERITEGA</a></p>
     <select required>
       <option>Vali eelistatud treener</option>
-      <option>Treener 1 – 4.5★</option>
-      <option>Treener 2 – 4.7★</option>
-      <option>Treener 3 – 5★</option>
-      <option>Treener 4 – 4.9★</option>
+      <option>Triinu Treener – 4.5★</option>
+      <option>Mart Mustikas – 4.7★</option>
+      <option>Siiri Sisalik – 5★</option>
+      <option>Karl Koer – 4.9★</option>
     </select>
   </div>
 
@@ -41,15 +65,20 @@
       </div>
 
     <div class="el">
-    <label>Vali päev</label><br>
-        <input type="radio" id="esmasp" required>
-        <label for="esmasp"> Esmaspäevane rühm</label><br>
-        <input type="radio" id="kolmap" required>
-        <label for="kolmap"> Kolmapäevane rühm</label><br>
-        <input type="radio" id="reede" required>
-        <label for="reede"> Reedene rühm</label><br>
-        <input type="radio" id="laup" required>
-        <label for="laup"> Laupäevane rühm</label><br>
+    <p class="valipäev">Vali päev</p><br>
+     
+        <input type="radio" id="esmasp" class="päev" name="päev">
+        <label for="p">Esmaspäevane rühm</label><br>
+
+        <input type="radio" id="kolmap" class="päev" name="päev">
+        <label for="p">Kolmapäevane rühm</label><br>
+
+        <input type="radio" id="reede" class="päev" name="päev">
+        <label for="p">Reedene rühm</label><br>
+
+        <input type="radio" id="laup" class="päev" name="päev">
+        <label for="p">Laupäevane rühm</label><br>
+
   </div>
 
   <hr>
@@ -69,6 +98,7 @@
   </div>
   <br>
 <button type="submit">Broneeri treening</button>
+
 </form>
 
 </body>

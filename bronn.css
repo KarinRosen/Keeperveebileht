@@ -1,0 +1,56 @@
+  div.el {
+    margin: 20px 0;
+  }
+  
+  label {
+    font-size: 1.25em;
+   }      
+  .päev{
+    display: block;
+    font-size: 0.5em;
+    margin:0;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 75%;
+    padding: 10px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: #193d23;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+
+.valipäev{
+    font-size:1.25em;
+    margin:0;
+    padding:0
+    }
+
+label[for="p"]{
+    font-size: 1em;
+}
+
+input[type="radio"]{
+    padding:0;
+    margin: 0;
+    width: 15px;
+    display: inline-block;
+}
