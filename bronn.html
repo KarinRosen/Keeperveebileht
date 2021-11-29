@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Broneeri aeg</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link rel='stylesheet' type='text/css' href='ühine.css'>
+    <link rel='stylesheet' type='text/css' href='bronn.css'>
+    <style>
+
+      </style>
+    
+</head>
+
+<div class="header">
+    <img src="keeperlogo.png" width="160" height="160" />
+  
+  </div>
+  </head>
+  <div class="navbar">
+    <nav>
+    <ul>
+    <a href="html">Meist</a>
+    <a href="koolitused.html">Koolitused</a>
+    <a href="treenerid.html">Meie partnerid</a>
+    <a href="test.html">Test</a>
+    <a href="bronn.html">Broneerimine</a>
+    <a href="avaleht.html">Avaleht</a>
+    </ul>
+  </nav>
+  </div>
+
+<body>
+
+<h1>AJA BRONEERIMINE</h1>
+<p>Broneeri end ja oma lemmikut koolitusele. Kui Sa pole kindel, et koeratrenn on see, mida vajad, tee <a href='test.html'>TEST</a></p>
+
+<form>
+<div class="el">
+    <label>Asukoht</label><br>
+    <select required>
+      <option>Vali linn</option>
+      <option>Tartu</option>
+      <option>Tallinn</option>
+    </select>
+
+  </div>
+
+  <div class="el">
+    <label>Treenerid</label><br>
+    <p>Tutvu meie <a href='treenerid.html'>TREENERITEGA</a></p>
+    <select required>
+      <option>Vali eelistatud treener</option>
+      <option>Triinu Treener – 4.5★</option>
+      <option>Mart Mustikas – 4.7★</option>
+      <option>Siiri Sisalik – 5★</option>
+      <option>Karl Koer – 4.9★</option>
+    </select>
+  </div>
+
+    <label>Uued rühmad alustavad märtsi, juuni, septembri ja detsembri esimesel nädalal</label>
+
+    <div class="el">
+        <label>Vali kuu</label><br>
+            <input type="month" id="kuu" min="2021-12" max="2022-9" step="3" required>
+      </div>
+
+    <div class="el">
+    <p class="valipäev">Vali päev</p><br>
+     
+        <input type="radio" id="esmasp" class="päev" name="päev">
+        <label for="p">Esmaspäevane rühm</label><br>
+
+        <input type="radio" id="kolmap" class="päev" name="päev">
+        <label for="p">Kolmapäevane rühm</label><br>
+
+        <input type="radio" id="reede" class="päev" name="päev">
+        <label for="p">Reedene rühm</label><br>
+
+        <input type="radio" id="laup" class="päev" name="päev">
+        <label for="p">Laupäevane rühm</label><br>
+
+  </div>
+
+  <hr>
+<div class="el">
+<label>Nimi</label><br>
+    <input type="text" id="nimi" placeholder="Mari Maasikas" required>
+  </div>
+
+  <div class="el">
+<label>E-mail</label><br>
+    <input type="email" id="meil" placeholder="mari.maasikas@email.ee" required>
+  </div>
+
+  <div class="el">
+    <label>Telefoninumber</label><br>
+    <input type="phone" id="tel" placeholder="57575757" required>
+  </div>
+  <br>
+<button type="submit">Broneeri treening</button>
+
+</form>
+
+</body>
+</html>

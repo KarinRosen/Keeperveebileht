@@ -1,0 +1,26 @@
+div.img-tekst {
+    text-align: justify;
+    width: [width of img];
+}
+
+div.img-tekst {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    border: 1px dotted #ccc;
+}
+
+.img-tekst {
+    float: left;
+    width: 22.5%;
+    padding: 10px;
+        }
+.rida:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+textarea {height: 150px;} 
